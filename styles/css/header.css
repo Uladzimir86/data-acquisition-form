@@ -1,0 +1,67 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-left: 16px;
+  font-size: 17px;
+  color: #727272;
+}
+.header__nav {
+  width: 38%;
+}
+.header__list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0;
+  list-style-type: none;
+}
+.header__item {
+  height: 50px;
+  padding-top: 20px;
+  color: inherit;
+  text-align: center;
+  line-height: 125%;
+}
+.header__item_profile {
+  border-left: 1px solid #E1E7F0;
+}
+.header__item_profile:first-child {
+  width: 166px;
+  padding-top: 15px;
+}
+.header__item_profile:nth-child(2) {
+  width: 99px;
+}
+.header__item_profile:last-child {
+  width: 70px;
+}
+.header__link {
+  color: inherit;
+  text-decoration: none;
+}
+.header__select {
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+.header__btn {
+  width: 22px;
+  height: 16px;
+  margin-top: 4px;
+  background-image: url("../../assets/icons/burger.png");
+  background-size: contain;
+}
+.header__profile-icon {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.header__profile-img {
+  margin-right: 16px;
+}
+
+/*# sourceMappingURL=header.css.map */

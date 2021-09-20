@@ -4,14 +4,15 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./styles/index.css">
+  <link rel="stylesheet" href="./styles/css/index.css">
   <title>Data acquisition form by Uladzimir</title>
 </head>
 <body>
   <div class="wrapper">
+    <!-- sidebar -->
     <sidebar class="sidebar">
       <div class="sidebar__head">
-        <div class="sidebar__title">
+        <div class="sidebar__logo">
           lims
         </div>
         <div class="sidebar__search">
@@ -34,9 +35,52 @@
         </div>
       </div>
     </sidebar>
-    <div class="data">
-      <header class="header">
 
+    <div class="data">
+      <!-- header -->
+      <header class="header">
+        <nav class="header__nav">
+          <ul class="header__list">
+            <li class="header__item">
+              <button class="header__btn"></button>
+            </li>
+            <li class="header__item">
+              <select class="header__select">
+                <option>Instruments</option>
+              </select>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Widgets</a>
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">View</a> 
+            </li>
+            <li class="header__item">
+              <a href="#" class="header__link">Administration</a> 
+            </li>
+          </ul>
+        </nav>
+        <div class="header__profile">
+          <ul class="header__list">
+            <li class="header__item header__item_profile">
+              <div class="header__profile-icon">
+                <img src="./assets/icons/Profile.png" alt="profile icon" class="header__profile-img">
+                Alexander
+              </div>
+   
+            </li>
+            <li class="header__item header__item_profile">
+              <select class="header__select">
+                <option>ENG</option>
+                <option>RU</option>
+                <option>BY</option>
+              </select>
+            </li>
+            <li class="header__item header__item_profile">
+              <img src="./assets/icons/unlock.png" alt="unlock icon" class="header__unlock">
+            </li>
+          </ul>
+         </div>
       </header>
       <main class='main'>
   
