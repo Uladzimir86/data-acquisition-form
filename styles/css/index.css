@@ -21,7 +21,7 @@
 }
 .header__item {
   height: 50px;
-  padding-top: 20px;
+  padding-top: 15px;
   color: inherit;
   text-align: center;
   line-height: 125%;
@@ -172,7 +172,23 @@
   }
 }
 .main {
-  background-color: cadetblue;
+  display: flex;
+  flex-wrap: wrap;
+  height: 1030px;
+  background-color: #F1F3F2;
+}
+.main__widgets {
+  width: 14%;
+  height: 100%;
+  border-right: 1px solid #CDCFCE;
+  border-top: 1px solid #D6D8D7;
+  box-shadow: -2px 1px 2px inset #D6D8D7;
+}
+.main__worklist {
+  width: 85.5%;
+  height: 100%;
+  border-top: 1px solid #DCDDDD;
+  box-shadow: 0px 1px 2px inset #DCDDDD;
 }
 
 * {
@@ -196,7 +212,7 @@ button:hover {
   display: flex;
   flex-wrap: wrap;
   width: 1920px;
-  height: 1080px;
+  min-height: 1080px;
   margin: 0 auto;
   font-family: "Roboto", sans-serif;
   line-height: 100%;
