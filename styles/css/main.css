@@ -4,18 +4,75 @@
   height: 1030px;
   background-color: #F1F3F2;
 }
-.main__widgets {
+.main__widgets-container {
+  position: relative;
   width: 14%;
+  max-width: 200px;
   height: 100%;
   border-right: 1px solid #CDCFCE;
   border-top: 1px solid #D6D8D7;
+  padding: 13px 15px;
   box-shadow: -2px 1px 2px inset #D6D8D7;
 }
 .main__worklist {
-  width: 85.5%;
+  width: 86%;
   height: 100%;
   border-top: 1px solid #DCDDDD;
   box-shadow: 0px 1px 2px inset #DCDDDD;
+}
+
+.widget {
+  height: 170px;
+  width: 170px;
+  border: 1px solid #BFC2C4;
+  margin-bottom: 14px;
+}
+.widget__title {
+  display: flex;
+  align-items: center;
+  height: 27px;
+  padding: 5px;
+  border-bottom: 1px solid #BFC2C4;
+}
+.widget__square {
+  height: 10px;
+  width: 10px;
+  margin-right: 7px;
+  background-color: #1A9022;
+}
+.widget__square_orange {
+  background-color: #F5AD3C;
+}
+.widget__text {
+  font-size: 14px;
+  color: #2F3B4C;
+}
+.widget__body {
+  position: relative;
+}
+.widget__png {
+  position: absolute;
+}
+.widget__png_thermostat {
+  top: 22px;
+  left: 107px;
+}
+.widget__png_vial {
+  top: 83px;
+  left: 114px;
+}
+.widget__btn {
+  position: absolute;
+  top: 34px;
+  right: -17px;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  background-color: #F1F3F2;
+  background-image: url("../../assets/icons/Arrow.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: -2px -2px 2px inset #D6D8D7;
 }
 
 /*# sourceMappingURL=main.css.map */

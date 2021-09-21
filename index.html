@@ -83,9 +83,57 @@
          </div>
       </header>
       <!-- main -->
-      <main class='main'>
-        <div class="main__widgets"></div>
-        <div class="main__worklist"></div>
+      <main class="main">
+
+        <div class="main__widgets-container">
+
+          <div class="widget">
+            <div class="widget__title">
+              <div class="widget__square"></div>
+              <div class="widget__text">Sampler</div>
+            </div>
+            <div class="widget__body">
+              <svg viewBox="0 0 180 155" height="160px">
+                <svg x="90" y="25" fill="transparent">
+                  <path fill-rule="evenodd" clip-rule="evenodd"
+                    d="M 12.1509 0.5L 2.84907 0.5C 1.79537 0.5 0.941176 1.35419 0.941176 2.40789C 0.941176 3.4616 1.79537 4.31579 2.84907 4.31579L 2.91176 4.31579C 3.52902 4.31579 4.02941 4.81618 4.02941 5.43344L 4.02941 6.78096C 4.02941 7.44695 3.48952 7.98684 2.82353 7.98684C 1.54028 7.98684 0.5 9.02712 0.5 10.3104L 0.5 25C 0.5 26.933 2.067 28.5 4 28.5L 11 28.5C 12.933 28.5 14.5 26.933 14.5 25L 14.5 10.3104C 14.5 9.02712 13.4597 7.98684 12.1765 7.98684C 11.5105 7.98684 10.9706 7.44695 10.9706 6.78096L 10.9706 5.43344C 10.9706 4.81618 11.471 4.31579 12.0882 4.31579L 12.1509 4.31579C 13.2046 4.31579 14.0588 3.4616 14.0588 2.40789C 14.0588 1.35419 13.2046 0.5 12.1509 0.5Z"
+                  stroke-miterlimit="8" transform="translate(22 56)" stroke="#B0B1C5"/>
+                  <line x1="0.5" y1="-0.5" x2="7.5" y2="-0.5" stroke-linecap="round" transform="translate(25.5 61)" stroke="#B0B1C5"/>
+                </svg>
+                <g>
+                  <circle cx="125" cy="108" r="5" fill="#12A9EB"/>
+                  <line x1="123" x2="127" y1="108" y2="108"  stroke="#ffffff" stroke-width="1"/>
+                  <line x1="125" x2="125" y1="106" y2="110"  stroke="#ffffff" stroke-width="1"/>
+                </g>
+                <use href="./assets/svg/sampler-icon.svg#injection" x="1" y="21"  />
+              </svg>
+              <img src="./assets/icons/thermostat.png" alt="thermostat" class="widget__png widget__png_thermostat">
+            </div>
+          </div>
+
+          <div class="widget">
+            <div class="widget__title">
+              <div class="widget__square widget__square_orange"></div>
+              <div class="widget__text">Quat. Pump</div>
+            </div>
+            <svg class="widget__body" viewBox="0 0 180 155">
+              <svg viewBox="0 0 180 155" width="85px" height="150px">
+                <use href="./assets/svg/bottle_filling_sprite.svg#bottle" x="40" y="-10" />
+                <use href="./assets/svg/bottle_filling_sprite.svg#bottle" x="118" y="-10" />
+                <use href="./assets/svg/bottle_filling_sprite.svg#full" x="117" y="-10"/>
+                <text x="65" y="75" font-size="20px">A</text>
+                <text x="145" y="75" font-size="20px">B</text>
+                <text x="60" y="120" font-size="20px">0.0</text>
+                <text x="125" y="120" font-size="20px">100.0</text>
+              </svg>
+              <use href="./assets/svg/valve-icon.svg#Canvas" x="110" y="52"/>
+              <text x="55" y="139" font-size="12px">1.000 mL/min</text>
+            </svg>
+          </div>
+          <button type="button" class="widget__btn"></button>
+        </div>
+        <div class="main__worklist">
+        </div>
       </main>
     </div>
   </div>
