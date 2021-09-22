@@ -21,6 +21,7 @@ button:hover {
 .wrapper {
   display: flex;
   flex-wrap: wrap;
+  align-items: stretch;
   width: 1920px;
   min-height: 1080px;
   margin: 0 auto;
@@ -28,7 +29,8 @@ button:hover {
   line-height: 100%;
 }
 .data {
-width: 85.4%;
+//width: 85.4%;
+width: 1600px;
 }
 
 

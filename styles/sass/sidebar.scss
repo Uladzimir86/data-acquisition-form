@@ -5,36 +5,37 @@
   background-color: #E1E5E8;
   border-right: 1px solid #CFD7DC;
   //width: 14.6%;
-  width: 250px;
+  width: 317px;
+  overflow: hidden;
 
   &__logo {
-    height: 45px;
+    height: 56px;
     background-color: #2F3B4C;
-    font-size: 24px;
+    font-size: 30px;
     color: #ffffff;
     text-transform: uppercase;
-    padding: 15px 0 0 30px;
+    padding: 20px 0 0 42px;
   }
   &__search {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 55px;
-    padding: 3px 20px 0 15px;
+    height: 70px;
+    padding: 5px 23px 0;
     border-bottom: 1px solid #BDC9D1;
   }
   &__input {
     width: 180px;
     background-color: transparent;
-    font-size: 12px;
+    font-size: 15px;
     color: #2F3B4C;
     &::placeholder {
       color: #2F3B4C;
     }
   }
   &__search-btn {
-    height: 16px;
-    width: 16px;
+    height: 20px;
+    width: 20px;
     background-image: url(../../assets/icons/lupa.png);
     background-size: contain;
     background-color: transparent;

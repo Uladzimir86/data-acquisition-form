@@ -6,45 +6,48 @@
 }
 .main__widgets-container {
   position: relative;
-  width: 14%;
-  max-width: 200px;
+  width: 13%;
+  width: 250px;
   height: 100%;
   border-right: 1px solid #CDCFCE;
   border-top: 1px solid #D6D8D7;
-  padding: 13px 15px;
+  padding: 16px 17px;
   box-shadow: -2px 1px 2px inset #D6D8D7;
 }
-.main__worklist {
-  width: 86%;
+.main__worklist-container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1350px;
   height: 100%;
+  padding: 16px 24px;
   border-top: 1px solid #DCDDDD;
   box-shadow: 0px 1px 2px inset #DCDDDD;
 }
 
 .widget {
-  height: 170px;
-  width: 170px;
+  height: 213px;
+  width: 213px;
   border: 1px solid #BFC2C4;
-  margin-bottom: 14px;
+  margin-bottom: 18px;
 }
 .widget__title {
   display: flex;
   align-items: center;
-  height: 27px;
-  padding: 5px;
+  height: 35px;
+  padding: 6px 8px;
   border-bottom: 1px solid #BFC2C4;
 }
 .widget__square {
-  height: 10px;
-  width: 10px;
-  margin-right: 7px;
+  height: 11px;
+  width: 11px;
+  margin-right: 10px;
   background-color: #1A9022;
 }
 .widget__square_orange {
   background-color: #F5AD3C;
 }
 .widget__text {
-  font-size: 14px;
+  font-size: 15px;
   color: #2F3B4C;
 }
 .widget__body {
@@ -54,8 +57,8 @@
   position: absolute;
 }
 .widget__png_thermostat {
-  top: 22px;
-  left: 107px;
+  top: 40px;
+  left: 140px;
 }
 .widget__png_vial {
   top: 83px;
@@ -63,16 +66,98 @@
 }
 .widget__btn {
   position: absolute;
-  top: 34px;
-  right: -17px;
-  width: 26px;
-  height: 26px;
+  top: 45px;
+  right: -20px;
+  width: 30px;
+  height: 30px;
   border-radius: 50%;
   background-color: #F1F3F2;
   background-image: url("../../assets/icons/Arrow.png");
-  background-position: center;
+  background-position: 8px 7px;
   background-repeat: no-repeat;
   box-shadow: -2px -2px 2px inset #D6D8D7;
+}
+
+.tablet {
+  height: 500px;
+  border: 1px solid #BFC2C4;
+}
+.tablet__header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  height: 52px;
+  padding: 0px 18px;
+  border-bottom: inherit;
+  font-size: 16px;
+  line-height: 125%;
+  color: #424C5A;
+}
+.tablet__header-block {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  border-right: 1px solid #BFC2C4;
+}
+.tablet__header-block:first-child {
+  width: 425px;
+}
+.tablet__header-block:nth-child(2) {
+  width: 295px;
+  background-color: #ffffff;
+}
+.tablet__header-block:last-child {
+  width: 170px;
+}
+.tablet__header-item {
+  padding-top: 5px;
+}
+.tablet__header-item:first-child {
+  text-transform: uppercase;
+  width: 90px;
+}
+.tablet__header-item:nth-child(2) {
+  width: 80px;
+  color: #2574A9;
+}
+.tablet__header-item:nth-child(3) {
+  width: 185px;
+  color: #7B7C7C;
+}
+.tablet__header-item:nth-child(4) {
+  color: #7B7C7C;
+}
+.tablet__header-icon {
+  height: 12px;
+  margin-right: 4px;
+}
+.tablet__footer {
+  height: 55px;
+  border-top: inherit;
+}
+.tablet_worklist {
+  height: 490px;
+  margin-bottom: 15px;
+}
+.tablet_chart {
+  width: 775px;
+  margin-right: 15px;
+}
+.tablet_spectra {
+  width: 585px;
+}
+
+.worklist {
+  display: flex;
+  flex-wrap: wrap;
+  height: 390px;
+}
+.worklist__methods {
+  width: 170px;
+  border-right: 1px solid #BFC2C4;
+}
+.worklist__left-block {
+  border-right: 1px solid #BFC2C4;
 }
 
 /*# sourceMappingURL=main.css.map */

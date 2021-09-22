@@ -3,12 +3,12 @@
   justify-content: space-between;
   align-items: center;
   flex-wrap: wrap;
-  padding-left: 10px;
-  height: 45px;
-  font-size: 17px;
+  padding-left: 15px;
+  height: 56px;
+  font-size: 19px;
   color: #727272;
   &__nav {
-    width: 38%;
+    //width: 48%;
   }
   &__list {
     display: flex;
@@ -19,22 +19,22 @@
     list-style-type: none;
   }
   &__item {
-    height: 50px;
-    padding-top: 10px;
+    height: 56px;
+    padding-top: 15px;
     color: inherit;
     text-align: center;
     line-height: 125%;
     &:nth-child(2) {
-      margin-left: 43px;
+      margin-left: 60px;
     }
     &:nth-child(3) {
-      margin-left: 50px;
+      margin-left: 78px;
     }
     &:nth-child(4) {
-      margin-left: 57px;
+      margin-left: 80px;
     }
     &:nth-child(5) {
-      margin-left: 74px;
+      margin-left: 97px;
     }
     &_profile {
       border-left: 1px solid #E1E7F0;
@@ -44,7 +44,7 @@
       }
       &:nth-child(2) {
         width: 90px;
-        padding-top: 14px;
+        padding-top: 20px;
         margin-left: 0;
         font-size: 16px;
       }
@@ -64,8 +64,8 @@
     color: inherit;
   }
   &__btn {
-    width: 22px;
-    height: 16px;
+    width: 23px;
+    height: 17px;
     margin-top: 4px;
     background-image: url('../../assets/icons/burger.png');
     background-size: contain;
