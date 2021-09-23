@@ -15,6 +15,9 @@ input {
   outline: none;
   cursor: pointer;
 }
+ul {
+  list-style-type: none;
+}
 button:hover {
   transform: scale(1.2);
 }

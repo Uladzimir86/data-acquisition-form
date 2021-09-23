@@ -135,6 +135,7 @@
         <!-- worklist -->
         <div class="main__worklist-container">
           <div class="tablet tablet_worklist">
+
             <div class="tablet__header">
               <div class="tablet__header-block">
                 <div class="tablet__header-item">Worklist</div>
@@ -145,19 +146,42 @@
                 <div class="tablet__header-item"> TO DO: 23 injections </div>
                 <div class="tablet__header-item"> 02:15:00 </div>
               </div>
-              <div class="tablet__header-block"></div>
-              <div class="tablet__header-block"></div>
+              <div class="tablet__header-block">
+                <div class="tablet__header-item">Method:</div>
+                <div class="tablet__header-item">Method1.amx (00:00/04:30)</div>
+              </div>
+              <div class="tablet__header-block">single run</div>
             </div>
+
             <div class="worklist">
-              <div class="worklist__methods"></div>
+              <div class="worklist__methods">
+                <ul class="methods__list">
+                  <li class="methods__item">ALS</li>
+                  <li class="methods__item">Inlets</li>
+                  <li class="methods__item methods__item_check">Columns</li>
+                </ul>
+              </div>
               <div class="worklist__left-block"></div>
               <div class="worklist__right-block"></div>
             </div>
-            <div class="tablet__footer"></div>
+
+            <div class="tablet__footer">
+              <div class="tablet__btn-container">
+                <button class="tablet__btn-round"><div>+</div></button>
+                <button class="tablet__btn-round"><div class="btn-round__text">...</div></button>
+              </div>
+              <div class="tablet__btn-container">
+                <button type="button" class="tablet__btn-ellipse">Save</button>
+                <button type="button" class="tablet__btn-ellipse">Save as</button>
+                <button type="button" class="tablet__btn-ellipse">Cancel</button>
+              </div>
+            </div>
           </div>
+
           <div class="tablet tablet_chart">
             <div class="tablet__header"></div>
           </div>
+
           <div class="tablet tablet_spectra">
             <div class="tablet__header"></div>
           </div>
