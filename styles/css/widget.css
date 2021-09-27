@@ -1,0 +1,55 @@
+.widget {
+  height: 213px;
+  width: 213px;
+  border: 1px solid #BFC2C4;
+  margin-bottom: 18px;
+}
+.widget__title {
+  display: flex;
+  align-items: center;
+  height: 35px;
+  padding: 6px 8px;
+  border-bottom: 1px solid #BFC2C4;
+}
+.widget__square {
+  height: 11px;
+  width: 11px;
+  margin-right: 10px;
+  background-color: #1A9022;
+}
+.widget__square_orange {
+  background-color: #F5AD3C;
+}
+.widget__text {
+  font-size: 15px;
+  color: #2F3B4C;
+}
+.widget__body {
+  position: relative;
+}
+.widget__png {
+  position: absolute;
+}
+.widget__png_thermostat {
+  top: 40px;
+  left: 140px;
+}
+.widget__png_vial {
+  top: 83px;
+  left: 114px;
+}
+.widget__btn {
+  position: absolute;
+  top: 45px;
+  right: -20px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #F1F3F2;
+  background-image: url("../../assets/icons/Arrow.png");
+  background-position: 8px 7px;
+  background-repeat: no-repeat;
+  box-shadow: -2px -2px 2px inset #D6D8D7;
+}
+
+/*# sourceMappingURL=widget.css.map */

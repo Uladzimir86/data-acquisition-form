@@ -1,0 +1,54 @@
+.widget {
+  height: 213px;
+  width: 213px;
+  border: 1px solid #BFC2C4;
+  margin-bottom: 18px;
+
+  &__title {
+    display: flex;
+    align-items: center;
+    height: 35px;
+    padding: 6px 8px;
+    border-bottom: 1px solid #BFC2C4;
+  }
+  &__square {
+    height: 11px;
+    width: 11px;
+    margin-right: 10px;
+    background-color: #1A9022;
+    &_orange {
+      background-color: #F5AD3C;
+    }
+  }
+  &__text {
+    font-size: 15px;
+    color: #2F3B4C;
+  }
+  &__body {
+    position: relative;
+  }
+  &__png {
+    position: absolute;
+    &_thermostat {
+      top: 40px;
+      left: 140px;
+    }
+    &_vial {
+      top: 83px;
+      left: 114px;
+    }
+  }
+  &__btn {
+    position: absolute;
+    top: 45px;
+    right: -20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #F1F3F2;
+    background-image: url('../../assets/icons/Arrow.png');
+    background-position: 8px 7px;
+    background-repeat: no-repeat;
+    box-shadow: -2px -2px 2px inset #D6D8D7;
+  }
+}
